@@ -136,11 +136,11 @@ ORDER BY total_revenue DESC;
 
 Result:
 
-| Category    | Revenue |
-| ----------- | ------- |
-| Electronics | 156,905 |
-| Clothing    | 155,580 |
-| Beauty      | 143,515 |
+| Category    | Revenue   |
+| ----------- | --------- |
+| Electronics | $ 156,905 |
+| Clothing    | $ 155,580 |
+| Beauty      | $ 143,515 |
 
 ---
 
@@ -188,10 +188,10 @@ FROM retail_sales
 GROUP BY gender;
 ```
 
-| Gender | AOV    |
-| ------ | ------ |
-| Male   | 455.43 |
-| Female | 456.55 |
+| Gender | AOV      |
+| ------ | -------- |
+| Male   | $ 455.43 |
+| Female | $ 456.55 |
 
 No significant segmentation difference.
 
